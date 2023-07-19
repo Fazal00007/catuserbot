@@ -35,7 +35,7 @@ cmdhr = Config.COMMAND_HAND_LER
 try:
     LOGS.info("Starting Userbot")
     catub.loop.run_until_complete(setup_bot())
-    LOGS.info("TG Bot Startup Completed")
+    LOGS.info("Bot Startup Completed")
 except Exception as e:
     LOGS.error(f"{e}")
     sys.exit()
@@ -52,7 +52,7 @@ async def startup_process():
     LOGS.info(
         f"||   Congratulation, now type {cmdhr}alive to see message if catub is live"
     )
-    LOGS.info("||   If you need assistance, head to https://t.me/catuserbot_support")
+    LOGS.info("||   If you need assistance, head to https://t.me/Lux_bot_support")
     LOGS.info(
         "============================================================================"
     )
